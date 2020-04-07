@@ -5,7 +5,9 @@ This setup is going to explain step by step how to upload a webMethods Integrati
 # Setup
 ## webMethods Integration Server 
 1.	Open webMethods Integration Server ‘Admin Console’.
-[BILD]
+
+![Admin Console](/images/admin-console-001.png "Admin Console")
+
 2.	Go to the ‘webMethods Cloud’ tab. In case this is not available, get in touch with your SAG contact person regarding the Cloud package.
 [BILD]
 3.	Click ‘Settings’ and enter your webMethods.io Integration credentials to connect IS with wm.io.

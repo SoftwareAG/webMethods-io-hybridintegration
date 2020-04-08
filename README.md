@@ -13,18 +13,20 @@ This setup is going to explain step by step how to upload a webMethods Integrati
     ![webMethods Cloud](/images/admin-console-002.png "webMethods Cloud")
 
 3.	Click ‘Settings’ and enter your webMethods.io Integration credentials to connect IS with wm.io.
-* Username
-* Password
-* webMethods.io Integration Cloud URL (Tenant name)
-Germany: https://your-tenant-name.int-aws-de.webmethods.io/ 
-US: https://your-tenant-name.int-aws-us.webmethods.io/
 
-    ![webMethods Cloud Settings](/images/admin-console-003.png "webMethods Cloud Settings)
+  * Username
+  * Password
+  * webMethods.io Integration Cloud URL (Tenant name):
+      * Germany: https://your-tenant-name.int-aws-de.webmethods.io/ 
+      * US: https://your-tenant-name.int-aws-us.webmethods.io/
+
+    ![webMethods Cloud Settings](/images/admin-console-003.png "webMethods Cloud Settings")
 
 4.	Go to ‘Accounts’ and click ‘Create On-Premise Account’. Enter your Integration Server User information (e.g. Administrator). Add the following information:
-* Alias Name
-* Description
-* Run As User
+
+  * Alias Name
+  * Description
+  * Run As User
 
   To validate the account, click ‘Test Account Settings’. In case you receive the following message ‘The account is valid’, please     click ‘Save Changes’.
   
@@ -33,10 +35,11 @@ US: https://your-tenant-name.int-aws-us.webmethods.io/
 5.	Go to ‘Applications’ and click ‘Define webMethods Cloud Application’. In this section the relevant flow can be chosen, which will be available in wm.io Integration.
 Enter now following information:
 
-* Name (The name of the new cloud application)
-* Description
+  * Name (The name of the new cloud application)
+  * Description
 
   Now you can see all available IS packages with the corresponding flows. Choose the flow you would like to upload. Every flow you select will be visible in wm.io Integration.
+
 Click ‘Save Changes’ to save the new ‘Cloud Application’.
 
     ![webMethods Cloud Applications](/images/admin-console-005.png "webMethods Cloud Applications")
@@ -44,6 +47,7 @@ Click ‘Save Changes’ to save the new ‘Cloud Application’.
 6.	As a last step, please click the ‘Upload-Button’. The selected cloud application is now available at wm.io Integration.
 
     ![webMethods Cloud Applications](/images/admin-console-006.png "webMethods Cloud Applications")
+
 
 ## webMethods.io Integration
 1.	Go to ‘webMethods.io Integration’ and login to your tenant, where you have uploaded your ‘Cloud Application’ previously. www.softwareag.cloud
@@ -64,11 +68,11 @@ Click ‘Save Changes’ to save the new ‘Cloud Application’.
 
     ![webMethodsio Connector Settings](/images/webmethodsio-004.png "webMethodsio Connector Settings")
 
-Please select and enter:
+  Please select and enter:
 
-* Select Action (The flow you have selected on the Integration Server)
-* Name (Predefined from the Integration server but possible to rename)
-* Conect to Demo_App – (Select the ‘On-Prem User’ you chose previously)
+    * Select Action (The flow you have selected on the Integration Server)
+    * Name (Predefined from the Integration server but possible to rename)
+    * Conect to Demo_App – (Select the ‘On-Prem User’ you chose previously)
 
   Click ‘Next’ to finish the application configuration.
   

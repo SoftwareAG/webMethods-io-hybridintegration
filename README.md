@@ -2,6 +2,10 @@
 # Description
 This setup is going to explain step by step how to upload a webMethods Integration Server (IS) workflow to the Webmethods.io Integration (wm.io) cloud. After connecting both systems, on premise data can easily be uploaded to the cloud.
 
+# Prerequisite
+* webMethods Integration Server User & Example Workflow
+* webMethods.io Integration User
+
 # Setup
 ## webMethods Integration Server 
 1.	Open webMethods Integration Server ‘Admin Console’.
@@ -28,9 +32,9 @@ This setup is going to explain step by step how to upload a webMethods Integrati
   * Description
   * Run As User
 
-  To validate the account, click ‘Test Account Settings’. In case you receive the following message ‘The account is valid’, please     click ‘Save Changes’.
+    To validate the account, click ‘Test Account Settings’. In case you receive the following message ‘The account is valid’, please     click ‘Save Changes’.
   
-    ![webMethods Cloud Accounts](/images/admin-console-004.png "webMethods Cloud Accounts")
+    ![webMethods Cloud Accounts](/images/admin-console-003.png "webMethods Cloud Accounts")
   
 5.	Go to ‘Applications’ and click ‘Define webMethods Cloud Application’. In this section the relevant flow can be chosen, which will be available in wm.io Integration.
 Enter now following information:
@@ -38,9 +42,9 @@ Enter now following information:
   * Name (The name of the new cloud application)
   * Description
 
-  Now you can see all available IS packages with the corresponding flows. Choose the flow you would like to upload. Every flow you select will be visible in wm.io Integration.
+    Now you can see all available IS packages with the corresponding flows. Choose the flow you would like to upload. Every flow you select will be visible in wm.io Integration.
 
-Click ‘Save Changes’ to save the new ‘Cloud Application’.
+    Click ‘Save Changes’ to save the new ‘Cloud Application’.
 
     ![webMethods Cloud Applications](/images/admin-console-005.png "webMethods Cloud Applications")
 
@@ -68,13 +72,13 @@ Click ‘Save Changes’ to save the new ‘Cloud Application’.
 
     ![webMethodsio Connector Settings](/images/webmethodsio-004.png "webMethodsio Connector Settings")
 
-  Please select and enter:
+      Please select and enter:
 
     * Select Action (The flow you have selected on the Integration Server)
     * Name (Predefined from the Integration server but possible to rename)
     * Conect to Demo_App – (Select the ‘On-Prem User’ you chose previously)
 
-  Click ‘Next’ to finish the application configuration.
+    Click ‘Next’ to finish the application configuration.
   
     ![webMethodsio Connector Settings](/images/webmethodsio-005.png "webMethodsio Connector Settings")
   
